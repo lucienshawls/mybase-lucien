@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name='mybase-lucien',
-    version='0.0.0',
+    version='0.0.1',
     author='Lucien',
     author_email="myxlc55@outlook.com",
     url="https://github.com/lucienshawls/mybase-lucien",
