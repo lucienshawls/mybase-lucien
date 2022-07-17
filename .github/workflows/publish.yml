@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   publish:
-    name: Publish_Release_and_Upload_to_PyPI
+    name: Publish Release and Upload to PyPI
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout Source
