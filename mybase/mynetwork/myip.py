@@ -4,7 +4,7 @@ def get():
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.connect(('8.8.8.8', 80))
-        myip = s.getsockname()[0]
+        my_ip = s.getsockname()[0]
     finally:
         s.close()
     return my_ip
