@@ -28,3 +28,33 @@ ip = myip.get()
 - returned value
   
   A string value, which is the ip address. It would be empty if the program fails to fetch the ip address. 
+## Module `mylocale`
+This checks the current operating locales.
+### Import
+```python
+from mybase_lucien import mylocale
+```
+### Function `is_exec()`
+This determines whether the currently running program is a script file run by the python interpreter or a packaged application.
+- usage
+```python
+is_executable = mylocale.is_exec()
+```
+- arguments
+
+  There are no arguments.
+- returned value
+
+  A bool value, indicating if this is a packaged application (True for yes).
+### Function `get_dir()`
+This fetches the directory the script file or the packaged application is located. 
+- usage
+```python
+mydir = mylocale.get_dir()
+```
+- arguments
+
+  There are no arguments.
+- returned value
+
+  A string value which is the directory mentioned above.
