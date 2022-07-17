@@ -7,5 +7,5 @@ pip install mybase-lucien
 ```
 To import:
 ```python
-import mybase
+import mybase_lucien
 ```
