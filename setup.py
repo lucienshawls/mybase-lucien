@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     long_description=long_description,
     packages=setuptools.find_packages(),
-    install_requires=['selenium'],
+    install_requires=[],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
